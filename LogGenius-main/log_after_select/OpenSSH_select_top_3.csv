@@ -1,0 +1,42 @@
+Dec 18 15:55:20 LabSZ sshd[32115]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.90.100.110.cloud-ip.provider.net  user=dbadmin
+Dec 12 09:30:22 LabSZ sshd[26449]: PAM 7 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=20.30.40.50.dynamic-ip.provider.com  user=guest
+Dec 13 10:45:30 LabSZ sshd[27560]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=30.40.50.60.static-ip.host.net  user=testuser
+Jan 15 12:45:20 LabSZ sshd[25510]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=110.6.6.200  user=admin
+Feb 20 17:12:35 LabSZ sshd[26621]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=115.7.7.205  user=testuser
+Mar 25 09:30:10 LabSZ sshd[27732]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=120.8.8.210  user=guest
+Jan 15 14:10:30 LabBJ sshd[32105]: Accepted password for user1 from 10.10.10.10 port 50000 ssh2
+Feb 20 22:45:15 LabGZ sshd[12345]: Accepted password for admin from 192.168.1.100 port 51234 ssh2
+Mar 05 03:25:40 LabSH sshd[45678]: Accepted password for guest from 172.16.0.50 port 52000 ssh2
+Dec 11 10:15:20 LabSZ sshd[25872]: Received disconnect from 120.138.63.143: 11: disconnected by user
+Dec 12 11:30:35 LabSZ sshd[26983]: Received disconnect from 121.139.64.144: 11: disconnected by user
+Dec 13 12:45:50 LabSZ sshd[28094]: Received disconnect from 122.140.65.145: 11: disconnected by user
+Jun 18 09:28:51 LabSZ sshd[30456]: Disconnecting: Too many authentication failures for developer [preauth]
+Jan 15 14:22:10 LabGZ sshd[25678]: Disconnecting: Too many authentication failures for admin [preauth]
+Feb 20 20:35:45 LabSH sshd[26901]: Disconnecting: Too many authentication failures for guest [preauth]
+`Dec 11 09:40:00 LabSZ sshd[25409]: Disconnecting: Too many authentication failures for admin [preauth]`
+`Dec 12 10:41:01 LabSZ sshd[26410]: Disconnecting: Too many authentication failures for user1 [preauth]`
+`Dec 13 11:42:02 LabSZ sshd[27411]: Disconnecting: Too many authentication failures for testuser [preauth]`
+Jan 15 11:25:20 LabBJ sshd[25678]: Disconnecting: Too many authentication failures for user1 [preauth]
+Jun 08 20:30:05 LabCD sshd[30789]: Disconnecting: Too many authentication failures for manager [preauth]
+Oct 22 06:30:40 LabKM sshd[34567]: Disconnecting: Too many authentication failures for consultant [preauth]
+Jan 15 14:10:30 LabNY sshd[32789]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Feb 22 19:45:15 LabLA sshd[12345]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Mar 05 03:20:40 LabCHI sshd[45678]: pam_unix(sshd:session): session opened for user charlie by (uid=0)
+Jan 15 09:22:10 LabNY sshd[32145]: fatal: Write failed: Connection reset by peer [preauth]
+Feb 20 14:45:33 LabLA sshd[12378]: fatal: Write failed: Connection reset by peer [preauth]
+Mar 05 16:11:25 LabCHI sshd[45690]: fatal: Write failed: Connection reset by peer [preauth]
+`Dec 11 08:22:30 LabSZ sshd[25435]: error: Received disconnect from 182.168.45.231: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]`
+`Dec 12 09:33:45 LabSZ sshd[26546]: error: Received disconnect from 173.172.56.342: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]`
+`Dec 13 10:44:50 LabSZ sshd[27657]: error: Received disconnect from 164.153.67.453: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]`
+Jan 15 12:30:45 LabSZ sshd[32145]: error: Received disconnect from 203.123.45.67: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Feb 20 18:12:10 LabSZ sshd[11223]: error: Received disconnect from 172.16.10.20: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+Mar 05 09:45:30 LabSZ sshd[45678]: error: Received disconnect from 10.0.0.100: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]
+`Jan 15 12:25:30 LabSZ sshd[35678]: message repeated 3 times: [ Failed password for admin from 10.22.45.89 port 22222 ssh2]`
+`Feb 20 03:45:12 LabSZ sshd[12345]: message repeated 7 times: [ Failed password for user1 from 192.168.1.100 port 33333 ssh2]`
+`Mar 05 18:00:08 LabSZ sshd[45678]: message repeated 2 times: [ Failed password for testuser from 203.12.34.56 port 44444 ssh2]`
+`May 12 11:22:40 LabSZ sshd[28901]: message repeated 4 times: [ Failed password for root from 111.22.33.44 port 66666 ssh2]`
+`Oct 1 13:10:45 LabSZ sshd[24567]: message repeated 5 times: [ Failed password for readonlyuser from 123.123.123.123 port 22222 ssh2]`
+`Jan 15 12:45:20 LabSZ sshd[25678]: message repeated 3 times: [ Failed password for admin from 192.168.1.100 port 2222 ssh2]`
+Dec 11 10:15:22 LabSZ sshd[25681]: pam_unix(sshd:session): session closed for user abc123
+Dec 12 14:30:10 LabSZ sshd[26682]: pam_unix(sshd:session): session closed for user testuser
+Dec 13 16:45:35 LabSZ sshd[27683]: pam_unix(sshd:session): session closed for user newuser

@@ -1,0 +1,27 @@
+`[client 192.168.1.100] Directory index forbidden by rule: /var/www/web1/`
+`[client 10.0.0.50] Directory index forbidden by rule: /var/www/test-site/`
+`[client 172.16.10.20] Directory index forbidden by rule: /home/user1/public_html/`
+mod_jk child init 10 -5
+mod_jk child init 5 -10
+mod_jk child init 3 -7
+`mod_jk child init 12 -12`
+`mod_jk child init 5 -5`
+`mod_jk child init 20 -20`
+`mod_rewrite parent init 2 -5`
+`mod_rewrite sibling init 3 -6`
+`mod_rewrite cousin init 4 -7`
+mod_headers child init 3 -9
+mod_headers child init 4 -10
+mod_headers child init 5 -11
+mod_jk child init 2 -3
+mod_jk child init 3 -4
+mod_jk child init 4 -5
+`mod_jk child init 5 -10`
+`mod_jk child init 12 -3`
+`mod_jk child init 3 -15`
+`mod_proxy child init 4 -13`
+`mod_proxy child init 5 -7`
+`mod_proxy child init 3 -5`
+workerEnv.init() ok /etc/nginx/conf/workers3.properties
+workerEnv.init() ok /etc/apache2/conf/workers4.properties
+workerEnv.init() ok /var/www/conf/workers5.properties
