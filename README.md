@@ -34,4 +34,4 @@ In the `runLogGenius.py` file, first modify the `main` function to call `C_datas
 - `new_dataset`: The output path for results.
 
 ## Contact Me
-If you have any questions, please feel free to contact me via email at 205483326@qq.com.
+If you have any questions, please feel free to contact me via email at 2300303120@cjlu.edu.com.
